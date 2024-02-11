@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+ul{
+    display:flex;
+    flex-direction: row;
+}
+
+nav{
+    background-color: grey;
+    padding: 12px 12px;
+}
+
+li{
+    list-style: none;
+    padding: 3px 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+body::before{
+    content:"";
+    z-index: -1;
+    opacity: 0.4;
+    height: 800px;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+
+    background: url('/static/gym.jpeg') no-repeat center center ;
+}
+
+.btn{
+    display: block;
+    margin: 4px auto;
+    padding: 5px;
+    border: solid;
+    border-radius: 5px;
+    width: 12%;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    margin: 12px auto;
+    
+    max-width: 70%;
+}
+
+input, textarea{
+    display: block;
+    padding: 2px 3px;
+    margin: 8px auto;
+    border: solid;
+    width: 60%;
+    border-radius: 5px;
+}
+
